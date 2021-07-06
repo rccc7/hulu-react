@@ -59,6 +59,10 @@ const Thumbnail = forwardRef(({ result }, ref) => {
     )
 })
 
+// This is neccessary in order to fix the error that Vercel displays when compiling the project:
+// Error: Component definition is missing display name  react/display-name
+//After doing some research I found out that we have to give a displayName when we 
+//use arrow functions to declare the component. See: https://stackoverflow.com/questions/52992932/component-definition-is-missing-display-name-react-display-name/52993237
 Thumbnail.displayName = 'Thumbnail';
 
 export default Thumbnail

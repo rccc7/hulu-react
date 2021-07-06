@@ -7,7 +7,8 @@ import {
     HomeIcon,
     LightningBoltIcon,
     SearchIcon,
-    UserIcon
+    UserIcon,
+    QuestionMarkCircleIcon
 } from '@heroicons/react/outline'
 
 function Header() {
@@ -20,12 +21,13 @@ function Header() {
             {/* flex-grow: use as much space as we possible can 
             max-w-2xl: Do not occupy the entire width*/}
             <div className='flex flex-grow justify-evenly max-w-2xl'>
-                <HeaderItem title='HOME' Icon={HomeIcon} />
+                <HeaderItem title='HOME' Icon={HomeIcon} page='/' />
                 <HeaderItem title='TRENDING' Icon={LightningBoltIcon} />
                 <HeaderItem title='VERIFIED' Icon={BadgeCheckIcon} />
                 <HeaderItem title='COLLECTIONS' Icon={CollectionIcon} />
                 <HeaderItem title='SEARCH' Icon={SearchIcon} />
                 <HeaderItem title='ACCOUNT' Icon={UserIcon} />
+                <HeaderItem title='ABOUT' Icon={QuestionMarkCircleIcon} page='/about' />
             </div>
             <Image
                 className='object-contain ml-10px'
