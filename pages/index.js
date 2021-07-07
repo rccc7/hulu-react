@@ -19,7 +19,7 @@ export default function Home({ results }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* Use &apos; instead of "'" in order to not receive the error "react/no-unescaped-entities" when compiled in Vercel */}
-      <h1>Hey Guys It&apos;s me RCCC 😎!! Let&apos;s build a Hulu (CLONE)👍😬</h1>
+      <h1>Hey Guys It&apos;s me RCCC 😎!!! Let&apos;s build a Hulu (CLONE)👍😬</h1>
       {/* Header component */}
       <Header />
 
