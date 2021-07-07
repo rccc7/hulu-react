@@ -10,6 +10,9 @@ function about() {
                 <h1>Developed by RCCC 😎.</h1>
                 <p>This is just a clone for learning and testing purposes only.
                     Images and desccriptions obtained from TMDb API:</p>
+                {/* Important: In order to avoid the "react/jsx-no-target-blank" 
+                    Error thrown by Vercel when compiling, we need to add the 
+                    "rel="noreferrer""" option to the link  */}
                 <a href='https://www.themoviedb.org/' target="_blank" rel="noreferrer" >
                     <Image
                         className='object-contain'
@@ -18,6 +21,9 @@ function about() {
                         height={100}
                     />
                 </a>
+                {/* Important: In order to avoid the "react/jsx-no-target-blank" 
+                    Error thrown by Vercel when compiling, we need to add the 
+                    "rel="noreferrer""" option to the link  */}
                 <p>HULU Logo obtained from <a className='text-blue-700' href='https://commons.wikimedia.org/wiki/File:Hulu_logo_2017.svg' target='_blank' rel="noreferrer" >Wikimedia Commons</a></p>
             </div>
         </div>
