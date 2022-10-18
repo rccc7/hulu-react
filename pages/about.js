@@ -8,7 +8,7 @@ function about() {
             <Header />
             <div className='flex flex-col items-center justify-between'>
                 <h1>Developed by RCCC 😎.</h1>
-                <p>This is just a clone for learning and testing purposes only.
+                <p>This is just a clone to demostrate the capabilities of ReactJS for testing and practice purposes only.
                     Images and desccriptions obtained from TMDb API:</p>
                 {/* Important: In order to avoid the "react/jsx-no-target-blank" 
                     Error thrown by Vercel when compiling, we need to add the 
