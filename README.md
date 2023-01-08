@@ -1,6 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Hulu-react
 
-## Getting Started
+Hulu-like app that simulates Hulu UI. Movie posters, thumbnails and descriptions are obtained from TMDB through its [API](https://www.themoviedb.org/documentation/api) and react-axios component. The movies are classified into different categories displayed at the Navbar and go from Trending, top-rated, and TV Series among others. It's responsive design and mobile first.
+
+See it in action at: https://hulu-react.vercel.app/
+
+## Screenshots:
+<div align="center">
+  <img src="screenshots/Hulu-react.jpg" alt="screenshot" width="700" style="width:700px;"/>
+</div>
+
+## Technologies
+
+The following technologies, dependencies and services were used to implement this app:
+- ReactJs
+- [Next.js](https://nextjs.org/).
+- [TailwindCSS](https://tailwindcss.com/).
+- [HeroIcons](https://heroicons.com/).
+- [TMDB API](https://www.themoviedb.org/documentation/api)
+- [Axios](https://github.com/axios/axios) for making http requests to the TMDB API.
+
+## Disclaimer
+This is just a demo for testing purposes only and to demonstrate react & Next.js capabilities.
+
+## Setup Instructions
 
 First, run the development server:
 
